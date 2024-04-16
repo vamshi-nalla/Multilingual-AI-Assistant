@@ -89,6 +89,11 @@ git clone "Your-repository"
 ```bash
 sudo apt install python3-pip
 ```
+``` bash
+# Incase issues founded 
+sudo apt install portaudio19-dev
+python3 -m  pip install PyAudio
+```
 
 ```bash
 pip3 install -r requirements.txt
@@ -104,3 +109,4 @@ python3 -m streamlit run app.py
 nohup python3 -m streamlit run app.py
 ```
 Note: Streamlit runs on this port: 8501
+
