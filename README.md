@@ -1,0 +1,59 @@
+# Multilingual Assistant 
+
+
+# How to run?
+### STEPS:
+
+Clone the repository
+
+```bash
+Project repo: https://github.com/
+```
+### STEP 01- Create a conda environment after opening the repository
+
+```bash
+conda create -p llmapp9 python=3.9 -y
+```
+
+```bash
+conda activate ./llmapp
+```
+
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
+### Create a `.env` file in the root directory and add your GOOGLE_API_KEY credentials as follows:
+
+```ini
+GOOGLE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+
+```bash
+# Finally run the following command
+streamlit run app.py
+```
+
+Now,
+```bash
+open up localhost:
+```
+### STEP-3 Try to Ignore the present virtual environment using gitignore
+
+```gitignore
+    llmapp9
+    /.env
+    env
+```
+### Techstack Used:
+
+- Python
+- Google API
+- Streamlit
+- PaLM2
+- s2t
+- t2s
+
+
